@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -68,58 +68,58 @@
 
       <section class="section">
         <div class="container">
-          <ul class="list-no-style flex-list">
-            <li class="description-block">
-              <div class="rectangle-icons">
-                <svg class="strenghts-icons">
+          <ul class="description__block">
+            <li>
+              <div class="description-block__icon-shape">
+                <svg class="description-icons">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
 
-              <p class="description-blocks__header">Lorem ipsum</p>
-              <p class="description-blocks__text">
+              <p class="description-block__header">Lorem ipsum</p>
+              <p class="description-block__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <div class="rectangle-icons">
-                <svg class="strenghts-icons">
+              <div class="description-block__icon-shape">
+                <svg class="description-icons">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
 
-              <p class="description-blocks__header">Lorem ipsum</p>
-              <p class="description-blocks__text">
+              <p class="description-block__header">Lorem ipsum</p>
+              <p class="description-block__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <div class="rectangle-icons">
-                <svg class="strenghts-icons">
+              <div class="description-block__icon-shape">
+                <svg class="description-icons">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
 
-              <p class="description-blocks__header">Lorem ipsum</p>
-              <p class="description-blocks__text">
+              <p class="description-block__header">Lorem ipsum</p>
+              <p class="description-block__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <div class="rectangle-icons">
-                <svg class="strenghts-icons">
+              <div class="description-block__icon-shape">
+                <svg class="description-icons">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
 
-              <p class="description-blocks__header">Lorem ipsum</p>
-              <p class="description-blocks__text">
+              <p class="description-block__header">Lorem ipsum</p>
+              <p class="description-block__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -355,7 +355,7 @@
         </div>
       </section>
       <section class="section">
-        <div class="container our-clients">
+        <div class="container">
           <h2 class="our-clients__text">Nasi klienci</h2>
           <ul class="our-clients__list">
             <li>
@@ -406,7 +406,7 @@
             ><span class="logo--secondary-color">Web</span>Studio</a
           >
           <address>
-            <ul class="list-no-style address addres-flex-footer">
+            <ul class="footer__address footer__addres--list">
               <li>m. Warszawa, Aleje Jerozolimskie 21</li>
               <li>
                 <a href="mailto:info@devstudio.com" class="footer__text--color"
@@ -455,9 +455,9 @@
             </li>
           </ul>
         </div>
-        <div class="newsletter__box">
+        <div class="newsletter">
           <p class="footer__header">ZAPISZ SIĘ DO NEWSLETTERA</p>
-          <form name="newsletter" class="newsletter">
+          <form name="newsletter" class="newsletter__form">
             <input
               id="newsletter"
               type="email"
@@ -477,13 +477,13 @@
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="close-button" data-modal-close>
+      <div class="modal__form">
+        <button class="modal__close-button" data-modal-close>
           <svg class="close-button__icon">
             <use href="./images/icons.svg#icon-x-close"></use>
           </svg>
         </button>
-        <div class="modal-content">
+        <div class="contact-form">
           <p class="contact-form__header">
             Zostaw swoje dane w formularzu poniżej
           </p>
@@ -539,7 +539,7 @@
               />
             </fieldset>
 
-            <fieldset class="fieldset-comment-form">
+            <fieldset class="fieldset__comment-form">
               <label class="label__header label__position" for="user-comment"
                 >Komentarz</label
               >
